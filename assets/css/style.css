@@ -1,0 +1,203 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "rublik",sans-serif;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "rublik",sans-serif;
+}
+.heder_area{
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	top: 60px;
+}
+.main-mega-menu nav>ul{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.main-mega-menu nav>ul>li{
+	padding-right: 50px;
+	padding-top: 5px;
+}
+.main-mega-menu nav> ul> li> a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 18px;
+	color: #566573;
+}
+.dropdown-content >li{
+	list-style: none;
+}
+.dropdown-content >li>a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #fff;
+	}
+.dropdown{
+	position: relative;
+  display: inline-block;
+}
+.dropdown-content_4{
+	position: absolute;
+  display: none;
+	padding:30px 30px !important;
+	height: 370px;
+	min-width: 250px;
+	background: #1C2833;
+  border-bottom: 5px solid #ff5421;
+  border-color: #ff5421 !important;
+  transition: -2s;
+}
+.dropdown-content_4 li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #fff;
+	font-size: ;
+}
+.dropdown:hover .dropdown-content_4{
+  display: block;
+}
+
+.dropdown-content_6{
+	position: absolute;
+  display: none;
+	padding:30px 30px !important;
+	height: 200px;
+	min-width: 250px;
+	background: #1C2833;
+  border-bottom: 5px solid #ff5421;
+  border-color: #ff5421 !important;
+  transition: -2s;
+}
+.dropdown-content_6 li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #fff;
+	font-size: ;
+}
+.dropdown:hover .dropdown-content_6{
+  display: block;
+}
+
+.dropdown-content{
+  position: absolute;
+  display: none;
+	padding:30px 30px !important;
+	height: 200px;
+	min-width: 200px;
+	background: #1C2833;
+  border-bottom: 5px solid #ff5421;
+  border-color: #ff5421 !important;
+  transition: -2s;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.button_wrap{
+	padding-top:0px;
+	padding-left: 40px;
+}
+.btn-wrap span {
+	height: 1px;
+	width: 22px;
+	background-color:red;
+	display: block;
+	margin: auto;
+	position: relative;
+	  
+}
+.btn-wrap span::after{
+	position: absolute;
+	content:"";
+	height: 100%;
+	width: 100%;
+	background-color:red;
+	display: block;
+	margin: auto;
+	top: 0;
+	left: 0;
+}
+
+.btn-wrap span::before{
+	position: absolute;
+	content:"";
+	height: 100%;
+	width: 100%;
+	background-color:red;
+	display: block;
+	margin: auto;
+	top: 0;
+	left: 0;
+	button: 5;
+}
+/*hero-section start-----------------------------*/
+.hero-section{
+	position: relative;
+}
+.hero_area{
+	height: 900px;
+	padding: 0px;
+	margin: 0 auto;
+	width: 100%;
+	box-sizing: border-box;
+	background-size: cover;
+}
+
+
+.color_thim{
+	height: 210px;
+	padding: 0px 0px;
+	margin: 0px;
+}
+.hedo_thim_section{
+	display: ;
+}
+.thim_images{
+	position: relative;
+	top: 240px;
+	padding-left: 10px;
+}
+
+.thim_images_1 {
+	position: absolute;
+	max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  padding-left: 130px;
+  top: 115px;
+
+}
+.tittle h1{
+	font-size: 68px;
+	line-height: 1;
+	padding-left: 200px;
+	padding-top: 100px;
+	font-weight: 600;
+
+}
+.tittle p{
+	padding-top: 20px;
+	padding-left: 200px;
+}
+.hero_btn{
+	padding-top: 30px;
+	padding-left:200px ;
+}
+.get-btn{
+	padding: 28px 45px;
+  border: 0px;
+  background: #5956e9;
+  border-radius: 20px;
+  color: #fff;
+  }
+  /*--------hero-section end---------------------*/
+
+  /*-------- services area start ---------------------*/
